@@ -42,11 +42,27 @@ header #brand:hover{
   padding: 15% 0;
 }
 
-
+#masthead .title h1{
+  padding: 50px 0 30px 0;
+  font-size: 7rem;
+}
 
 .title img{
   width: 250px;
 }
+
+
+/*portfolio*/
+
+#portfolio{
+  padding: 10% 0;
+}
+
+
+#portfolio img{
+  height: 250px;
+}
+
 
 
 /*footer*/
