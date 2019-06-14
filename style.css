@@ -14,10 +14,31 @@ header a{
   font-size: 2rem;
 }
 
+.navbar{
+  margin: 0 auto;
+}
 .navbar-brand{
   font-size: 2rem;
 }
 
 .navbar-brand:hover{
   color: rgba(255, 255, 255, 0.63);
+}
+
+/**/
+#masthead{
+  background: #1abc9c;
+  color: white;
+}
+
+#masthead .container{
+  padding: 10% 0;
+}
+
+.title img{
+  width: 250px;
+}
+
+.fa-star:before{
+  content: "\f005"
 }
