@@ -16,16 +16,30 @@ header a {
   font-size: 2rem;
 }
 
+header #brand {
+  color: white;
+}
+
 header .navbar {
-  /*   margin: 0 auto; */
   background-color: inherit;
   border: none;
 }
 
-header #brand {
-  font-size: 2rem;
-  color: white;
+@media (max-width: 768px){
+  header .navbar-right{
+    float: right;
+  }
+
+  header ul{
+    padding: 10px 0
+  }
+
+  header a{
+    font-size: 1rem;
+  }
+
 }
+
 
 header #brand:hover {
   color: rgba(255, 255, 255, 0.63);
