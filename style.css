@@ -103,8 +103,31 @@ header #brand:hover {
 
 
 /*Contact*/
+#contact .input-group{
+  max-width: 80%;
+  padding: 5% 0;
+}
 
+#contact .form-control{
+  font-size: 2rem;
+  color: #495057;
+  height: 90px;
+  border: none;
+}
 
+#contact .input-group, #contact .input-group-btn{
+  padding: 5% 0;
+}
+
+#contact .form-control[placeholder="Message"]{
+  height: 500px;
+}
+#contact .btn{
+  background: #1abc9c;
+  color: white;
+  font-size: 2.5rem;
+  border-radius: 5px;
+}
 
 /*footer*/
 
